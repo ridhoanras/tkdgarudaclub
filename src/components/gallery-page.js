@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 
-import HeroImage from "../images/3D-liquid-abstract-2.webp"
+import HeroImage from "../images/holographic-background.webp"
 import BackGroud from "../images/holographic-background.webp"
 
 const Gallery = () => {
