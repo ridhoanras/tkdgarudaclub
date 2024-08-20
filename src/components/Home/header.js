@@ -10,17 +10,17 @@ const Header = () => {
         <div className="my-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-0 xl:mt-28 flex gap-10 lg:flex-justify lg:flex flex-col lg:flex-row flex-col-reverse">
           <div className="text-center lg:text-left flex flex-col justify-center">
             <h1 className="text-black text-4xl font-semibold opacity-70">
-              MY NAME IS HOLO
+              Selamat Datang
             </h1>
             <h2 className="text-black text-gradient bg-gradient-to-r from-pink to-purple text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl">
-              Hi there!
+              Sahabat Garuda!
             </h2>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-              I'm a streamlined, lightweight theme starter kit crafted on
-              Gatsby. My design marries minimalist elegance with contemporary
-              flair, offering an unparalleled aesthetic experience for the
-              modern web.
+              Taekwondo Garuda Club adalah tempat di mana semangat, disiplin, dan teknik bertemu untuk 
+              membentuk keunggulan. Kami adalah komunitas taekwondo yang berkomitmen untuk mengembangkan 
+              kemampuan fisik dan mental para anggotanya melalui pelatihan yang intensif dan filosofi yang
+              mendalam dari seni bela diri ini.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
@@ -29,7 +29,7 @@ const Header = () => {
                   href="/contact"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
                 >
-                  Contact Us
+                  Hubungi kami
                   <svg
                     className="w-3.5 h-3.5 ms-2 rtl:rotate-180"
                     aria-hidden="true"
@@ -52,7 +52,7 @@ const Header = () => {
                   href="/about"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
                 >
-                  Get To Know Us
+                  Kenali kami
                 </a>
               </div>
             </div>
