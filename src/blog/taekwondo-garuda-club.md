@@ -6,7 +6,7 @@ featuredimage: /img/holographic-background.webp
 categories:
   - Gatsby
 description: >-
-  Selamat datang di Artikel Resmi Terpercaya Taekwondo Garuda Club, sahabat garuda bisa menemukan sumber informasi yang sebenarnya tentang Taekwondo Garuda Club. Kami percaya bahwa taekwondo lebih dari sekadar bela diri, ini adalah media informasi berita, analisis, dan opini dari perjalanan menuju pengembangan diri dan pencapaian prestasi luar biasa. Bergabunglah dengan kami dan alami transformasi yang memadukan teknik, semangat, dan karakter.
+  Selamat datang di Artikel Resmi Terpercaya Taekwondo Garuda Club, Ini adalah sumber informasi dari perjalanan menuju pencapaian prestasi luar biasa. Bergabunglah dengan kami dan alami transformasi yang memadukan teknik, semangat, dan karakter.
 ---
 ## Sejarah Singkat Taekwondo Garuda Club
 
