@@ -23,7 +23,7 @@ const FeaturedBlog = () => {
               type and scrambled it to make a type specimen book.
             </p>
             <a
-              href="/blog/blog-post"
+              href="/blog/ujian-kenaikan-tingkat-taekwondo-kota-tangerang-periode-1-tanggal-19-mei-2024"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out inline-flex justify-center items-center py-2.5 px-5 text-base font-medium text-center text-black hover:text-white rounded-lg border border-purple  hover:bg-purple"
             >
               Continue Reading

@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Taekwondo Garuda Club
+title: Artikel Taekwondo Garuda Club
 date: 2024-08-20T18:18:16.118Z
 featuredimage: /img/holographic-background.webp
 categories:
