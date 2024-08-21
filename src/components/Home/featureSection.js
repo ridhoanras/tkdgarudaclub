@@ -121,7 +121,7 @@ const FeatureSection = () => {
             Mulai membangun prestasi di Taekwondo Garuda Club yang luar biasa
             </h2>
             <p className="mt-10 text-white opacity-70">
-            Taekwondo Garuda Club, tempat di mana potensi Anda bertemu dengan peluang tak terbatas untuk
+            Taekwondo Garuda Club, tempat di mana potensi Anak Ayah dan Bunda bertemu dengan peluang tak terbatas untuk
             membangun prestasi luar biasa! Di sini, kami tidak hanya mengajarkan teknik dan keterampilan 
             bela diri; kami membentuk karakter dan menginspirasi prestasi yang mengesankan.
             </p>
