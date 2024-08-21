@@ -34,9 +34,9 @@ const FeatureSection = () => {
 
       <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
         <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
-          <div className="lg:w-1/2 my-4">
+          <div className="lg:w-1/2 my-4 flex justify-center">
             <img
-              className="rounded-xl h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+              className="rounded-xl h-56 w-100 object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
               src={HeroImage}
               alt="HeroImage"
             ></img>
