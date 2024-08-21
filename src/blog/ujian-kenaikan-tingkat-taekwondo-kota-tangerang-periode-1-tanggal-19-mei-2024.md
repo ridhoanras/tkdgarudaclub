@@ -7,10 +7,7 @@ categories:
   - blog
 tags:
   - blog
-description: Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text ever since
-  the 1500s, when an unknown printer took a galley of type and scrambled it to
-  make a type specimen book.
+description: Ujian Kenaikan Tingkat Taekwondo Kota Tangerang Periode 1 Tanggal 19 Mei 2024 Secara resmi di laksanakan di Puspem Kota Tangerang.
 ---
 ## UKT 
 
