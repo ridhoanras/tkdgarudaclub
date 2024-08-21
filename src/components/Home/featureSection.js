@@ -95,21 +95,22 @@ const FeatureSection = () => {
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
           <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <span className="text-black font-semibold font-montserrat text-4xl">
-              TECH STACK
+              MANFAAT
             </span>
             <div className="mt-5">
               <div>
-                <p className="text-black text-2xl">Gatsby 5+</p>
-                <p className="text-black opacity-50 text-sm">SSG and more...</p>
+                <p className="text-black text-2xl">1. Menjaga Kewaspadaan</p>
+                <p className="text-black opacity-50 text-sm">2. Mengasah Konsentrasi dan Kelenturan</p>
               </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">React 18+</p>
-                <p className="text-black opacity-50 text-sm">Create more...</p>
+                <p className="text-black text-2xl">3. Menambah Percaya Diri dan Keberanian</p>
+                <p className="text-black opacity-50 text-sm">4. Meningkatkan Koordinasi dan Keseimbangan</p>
               </div>
               <div className="mt-5">
-                <p className="text-black text-2xl">Tailwind CSS 3+</p>
+                <p className="text-black text-2xl">5. Meningkatkan Ketahanan Tubuh</p>
                 <p className="text-black opacity-50 text-sm">
-                  A utility-first CSS
+                6. Sebagai Prestasi non akademis untuk
+                dipergunakan di jalur prestasi
                 </p>
               </div>
             </div>
@@ -117,19 +118,12 @@ const FeatureSection = () => {
 
           <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
             <h2 className="text-white text-4xl">
-              Start building amazing web experiences
+            Mulai membangun prestasi di Taekwondo Garuda Club yang luar biasa
             </h2>
             <p className="mt-10 text-white opacity-70">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+            Taekwondo Garuda Club, tempat di mana potensi Anda bertemu dengan peluang tak terbatas untuk
+            membangun prestasi luar biasa! Di sini, kami tidak hanya mengajarkan teknik dan keterampilan 
+            bela diri; kami membentuk karakter dan menginspirasi prestasi yang mengesankan.
             </p>
           </div>
         </div>
