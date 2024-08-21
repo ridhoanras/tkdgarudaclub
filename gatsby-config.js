@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Garuda Club`,
-    description: `Holo is a visually striking and highly customizable open source theme built on the powerful Gatsby framework and integrated with the versatile Decap CMS`,
+    title: `Taekwondo Garuda Club`,
+    description: `Website Resmi Taekwondo Garuda Club`,
     siteUrl: "https://holo-theme.netlify.app/",
     author: `Travis Lord <hi@travislord.xyz>`,
   },
