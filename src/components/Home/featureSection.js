@@ -131,41 +131,54 @@ const FeatureSection = () => {
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          OPEN SOURCE
+          MEMBUKA PENDAFTARAN
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          A React based framework
+          Persyaratan menjadi anggota 
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+        • Mengisi Formulir Pendaftaran dikumpulkan ke kontak admin atau Pelatih Taekwondo.
+        melalui website ini.
+        <br></br>
+        • Membayar Biaya Pendaftaran termasuk
+          baju seragam taekwondo dan buku
+          materi.
+          <br></br>
+        • Membayar Iuran Bulanan
+        <br></br>
+        • Izin Orangtua
         </p>
       </div>
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          INTEGRATIONS
+          INTEGRASI
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Discover and connect
+          Kami Terintegrasi dengan unit
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          1. SDIT Granada Karawaci Kota Tangerang; 2. SD Bina Nusa Rajeg Kab. Tangerang; 
+          3. Selasar Puspem Kota Tangerang; 4. TKIT Granada Karawaci Kota Tangerang; 
+          5. Sunbright TangCity Tangerang Kota Tangerang; 6. Sunbright Citra Raya Cikupa Kab. Tangerang;
+          7. SD Mutiara Hati Tangerang Kota Tangerang; 8. SMA Islamic Village Kelapa Dua Kab. Tangerang;
+          9. SD Al-Ikhlas Cipondoh Kota Tangerang; 10. SMP Nusantara 1 Karawaci Kota Tangerang; 
+          11. SMA Nusantara 1 Karawaci Kota Tangerang; 12. SMK Nusantara 1 Karawaci Kota Tangerang;
+          13. SDIT Insan Mutiara Madani Cibodas Kota Tangerang; 14. SDN Tangerang 4 Tangerang Kota Tangerang;
+          15. SDN Karawaci Baru 1 Karawaci Kota Tangerang; 16. SD Asy-Syukkriyah Faturrahman; 
+          17. SDIT Al-Fathir Batuceper Kota Tangerang; 18. SDIT AL-Iatiqomah 2 Cibodas Kota Tangerang;
+          19. MI Plus Asy-Syukkriyah Cipondoh Kota Tangerang; 20. SMPIT Asy-Syukkriyah Cipondoh Kota Tangerang;
+          21. SDN Sukasari 5 Tangerang Kota Tangerang; 22. SMPIT Granada Karawaci Kota Tangerang;
+          23. SMAIT Granada Karawaci Kota Tangerang; 24. SDN Tangerang 1 Tangerang Kota Tangerang;
+          25. SDIT Indria Islamic School Sepatan Kab. Tangerang; 26. SDN Daan Mogot 1 Tangerang Kota Tangerang;
+          27. SDN Daan Mogot 3 Tangerang Kota Tangerang; 28. SDN Sukasari 3 Tangerang Kota Tangerang;
+          29. SDN Sukasari 6 Tangerang Kota Tangerang; 30. MIN 1 Tangerang Kota Tangerang; 
+          31. Komplek Garuda Cipondoh Kota Tangerang; 32. SDN Tanah Tinggi 1 Tangerang Kota Tangerang;
+          33. SDN Tanah Tinggi 2 Tangerang Kota Tangerang; 34. SDN Tanah Tinggi 3 Kota Tangerang;
+          35. Perumahan Sutera Mediterania Rajeg Kab. Tangerang; 36. Jl. Sigura-gura Kelapa Dua Kab. Tangerang;
+          37. SDN Total Persada Periuk Kota Tangerang; 38. SMP PGRI Periuk Kota Tangerang;
+          39. Perumahan Palem 9 Sepatang Timur Kab. Tangerang; 40. Tang City Mall Tangerang Kota Tangerang;
+          41. SMA PGRI 109 Karawaci Kota Tangerang; 42. SMK PGRI 109 Karawaci Kota Tangerang. 
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
@@ -173,7 +186,7 @@ const FeatureSection = () => {
               href="/contact/"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
             >
-              Send Enquiry
+              Kirim Pertanyaan
             </a>
           </div>
         </div>
