@@ -6,7 +6,15 @@ featuredimage: /img/Holographic-Liquid-2.jpg
 categories:
   - blog
 tags:
-  - blog
+  - Juara 1 Umum Artinya
+  - Juara Umum Taekwondo 1 Sampai 8
+  - Juara Umum dan Juara 1
+  - Cara Menjadi Juara 1 Umum
+  - Juara Umum Olimpiade
+  - Kejuaraan Indonesia BIGFEST Taekwondo Challenge 2023
+  - Indonesia Bigfest Taekwondo Challenge
+  - Pembina Taekwondo Garuda Club
+  - Orang Tua Atlet Garuda Club
 description: Kejuaraan Taekwondo Golden Eagle 2024 Di Gor Nambo Kota Tangerang yang diselenggarakan  pada tgl 28 Juli 2024 di Gor Nambo Kota Tangerang di ikuti oleh peserta baik dari dalam maupun luar daerah Kota Tangerang. Garuda Club Kembali meraih Juara Umum di beberapa katagori dalam kejuaraan kali ini.
 ---
 ## Kejuaraan Taekwondo 

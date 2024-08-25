@@ -38,7 +38,16 @@ module.exports = {
     Kejuaraan Taekwondo 2024,
     Kejuaraan Taekwondo Internasional 2024,
     Ucapan Selamat Panitia,
-    Kabid Olahraga Dispora
+    Kabid Olahraga Dispora,
+    Juara 1 Umum Artinya,
+    Juara Umum Taekwondo 1 Sampai 8,
+    Juara Umum dan Juara 1,
+    Cara Menjadi Juara 1 Umum,
+    Juara Umum Olimpiade,
+    Kejuaraan Indonesia BIGFEST Taekwondo Challenge 2023,
+    Indonesia Bigfest Taekwondo Challenge,
+    Pembina Taekwondo Garuda Club,
+    Orang Tua Atlet Garuda Club
     `,
   },
   plugins: [
