@@ -4,6 +4,7 @@ module.exports = {
     description: `Website Resmi Taekwondo Garuda Club`,
     siteUrl: "https://holo-theme.netlify.app/",
     author: `Travis Lord <hi@travislord.xyz>`,
+    keywords: `Ujian Kenaikan Tali Pinggang Taekwondo, Ujian Kenaikan Sabuk Taekwondo, Ujian Kenaikan Sabuk Taekwondo 2023, Biaya Ujian Kenaikan Sabuk Taekwondo 2023, Materi Ujian Kenaikan Sabuk Taekwondo, Biaya Ujian Kenaikan Sabuk Taekwondo`,
   },
   plugins: [
     `gatsby-plugin-image`,

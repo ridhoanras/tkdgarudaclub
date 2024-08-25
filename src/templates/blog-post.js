@@ -33,7 +33,8 @@ const StyledDiv = styled.div`
   }
 `
 const BlogPost = props => {
-  const { pageContext } = props
+  const { pageContext } = props 
+  console.log("post data", props)
   const nextSlug = pageContext.next ? pageContext.next.fields.slug : "/"
   const previousSlug = pageContext.previous
     ? pageContext.previous.fields.slug
