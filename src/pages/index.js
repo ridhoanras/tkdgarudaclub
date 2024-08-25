@@ -12,8 +12,8 @@ const IndexPage = () => (
   <div className="h-auto w-screen">
     <Layout>
       <Seo
-        title="Home"
-        description="Website Resmi Taekwondo Garuda Club."
+        title="Halaman utama website"
+        description="Ini Adalah Website Resmi Taekwondo Garuda Club."
       ></Seo>
       <Header></Header>
       <FeatureSection></FeatureSection>

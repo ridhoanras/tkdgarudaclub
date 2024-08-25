@@ -2,9 +2,17 @@
 templateKey: blog-post
 title: Taekwondo Garuda Club
 date: 2024-08-20T18:18:16.118Z
-featuredimage: /img/holographic-background.webp
+featuredimage: /img/taekwondo-garuda-club.webp
 categories:
   - Gatsby
+tags:
+  - Taekwondo Garuda Club Banjar Wijaya
+  - Garuda Taekwondo Sitra Club
+  - Word Taekwondo Federation Ruls
+  - Sejarah Singkat Taekwondo Garuda Club
+  - Sejarah Taekwondo Indonesia
+  - Sejarah Taekwondo Masuk Ke Indonesia
+  - Sejarah PBTI
 description: >-
   Selamat datang di Artikel Resmi Terpercaya Taekwondo Garuda Club, Ini adalah sumber informasi dari perjalanan menuju pencapaian prestasi luar biasa. Bergabunglah dengan kami dan alami transformasi yang memadukan teknik, semangat, dan karakter.
 ---
