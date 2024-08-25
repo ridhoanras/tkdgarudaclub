@@ -209,20 +209,20 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">v1.0.0</h3>
-            <h4 className="mt-10 text-black opacity-70 text-xl">Released</h4>
+            <h3 className="text-black text-2xl">42</h3>
+            <h4 className="mt-10 text-black opacity-70 text-xl">Total Unit</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Fork</h3>
+            <h3 className="text-white text-2xl">Kota Tangerang</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
-              PR's welcome
+              35
             </h4>
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Stars</h3>
+            <h3 className="text-white text-2xl">Kabupaten Tangerang</h3>
             <h4 className="mt-10 text-white opacity-70 text-xl">
-              Give support
+              7
             </h4>
           </div>
         </div>
