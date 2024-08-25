@@ -4,9 +4,17 @@ title: Garuda club memperoleh Juara Umum 1 Pemula Di Indonesia BIGFEST Taekwondo
 date: 2023-07-19T15:39:18.616Z
 featuredimage: /img/Holographic-Liquid-1.jpg
 categories:
-  - blog
+  - Memperoleh Juara Umum
+  - Kejuaraan Taekwondo
+  - Kejuaraan Taekwondo UGM 2024
+  - Kejuaraan Taekwondo Agustus 2024
+  - Kejuaraan Taekwondo 2024
+  - Kejuaraan Taekwondo Internasional 2024
+  - Ucapan Selamat Panitia
+  - Kabid Olahraga Dispora
+
 tags:
-  - blog
+  - 
 description: Kejuaraan Indonesia BIGFEST Taekwondo Challenge 2023 Kejuaraan tersebut menggelar laga kelas kyorugi dan poomsae baik pemula maupun prestasi. berlangsung di Indor Stadion Sport Center, Kabupaten Tangerang pada 15 – 16 Juli 2023.
 ---
 ## Kejuaraan Indonesia BIGFEST Taekwondo Challenge 2023 

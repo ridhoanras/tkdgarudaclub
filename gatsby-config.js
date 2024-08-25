@@ -31,6 +31,14 @@ module.exports = {
     Taekwondo Fees,
     5 Principle Of Taekwondo,
     Penguji Taekwondo,
+    Memperoleh Juara Umum,
+    Kejuaraan Taekwondo,
+    Kejuaraan Taekwondo UGM 2024,
+    Kejuaraan Taekwondo Agustus 2024,
+    Kejuaraan Taekwondo 2024,
+    Kejuaraan Taekwondo Internasional 2024,
+    Ucapan Selamat Panitia,
+    Kabid Olahraga Dispora
     `,
   },
   plugins: [

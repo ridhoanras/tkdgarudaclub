@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Ujian Kenaikan Tingkat Taekwondo Kota Tangerang Periode 1 Tanggal 19 Mei 2024
 date: 2024-05-22T15:02:06.069Z
-featuredimage: /img/ujian-kenaikan-tingkat-taekwondo-kota-tangerang-periode-1-tanggal-19-mei-2024.jpg
+featuredimage: /img/Holographic-Liquid-3.jpg
 categories:
   - blog
 tags:
