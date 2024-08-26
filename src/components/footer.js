@@ -12,10 +12,9 @@ const Footer = () => {
             <div>
               <img className="max-h-28 max-w-xs" src={logo} alt="Holo"></img>
               <p className="text-black opacity-70 text-sm mt-5 ">
-                A stunning and minimal<br></br> personalized website starter
-                theme
+                Tempat latihan Taekwondo<br></br> terbaik di Tangerang Raya
                 <br></br>
-                built with Gatsby.
+                yaitu Taekwondo Garuda Club.
               </p>
               <p className="text-white text-lg font-bold mt-20">
                 <span className="text-black font-montserrat font-semibold mt-20">
@@ -25,26 +24,39 @@ const Footer = () => {
               <div className="text-black font-bold block-inline">
                 <p>
                   <a className="text-black font-bold block-inline" href="/">
-                    Holo
+                  Build by
                   </a>
-
+                  
                   <a
                     className="text-black font-semibold ml-1"
                     target="_blank"
-                    href="https://travislord.xyz"
+                    href="https://tkdgarudaclub.or.id"
                   >
-                    By TL
+                    Taekwondo Garuda Club
                   </a>
+
+                  <div class="flex items-center space-x-2">
                   <a
-                    href="https://github.com/lilxyzz/holo-theme"
+                    href="https://www.youtube.com/@GARUDAFAMILY"
                     target="_blank"
                   >
                     <img
                       className="w-5 h-5 mt-1"
-                      src="/img/Github-Logo.png"
-                      alt="GitHub"
+                      src="/img/Youtube-Logo.png"
+                      alt="Youtube"
                     ></img>
                   </a>
+                  <a
+                    href="https://www.instagram.com/tkdgaruda/?hl=en"
+                    target="_blank"
+                  >
+                    <img
+                      className="w-5 h-5 mt-1"
+                      src="/img/Instagram-Logo.png"
+                      alt="Instagram"
+                    ></img>
+                  </a>
+                  </div>
                 </p>
               </div>
             </div>
