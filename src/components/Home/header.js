@@ -24,10 +24,10 @@ const Header = () => {
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-              <div className="rounded-md">
+              <div className="rounded-md sm:relative sm:top-[-30px]">
                 <a
                   href="/contact"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10 "
                 >
                   Hubungi kami
                   <svg
@@ -47,7 +47,7 @@ const Header = () => {
                   </svg>
                 </a>
               </div>
-              <div className="mt-3 sm:mt-0 sm:ml-3">
+              <div className="mt-3 sm:mt-0 sm:ml-3 sm:relative sm:top-[-30px]">
                 <a
                   href="/about"
                   className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
@@ -58,12 +58,12 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 flex lg:justify-end justify-center">
+          <div className="lg:inset-y-0 lg:right-0 lg:w-1/2 my-4 flex justify-center">
             <img
-              className="rounded-xl w-auto h-full object-cover flex justify-center"
+              className="rounded-xl w-3/4 h-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm xl:max-w-md object-cover"
               src={hero}
-              alt=""
-            ></img>
+              alt="Hero"
+            />
           </div>
         </div>
       </div>

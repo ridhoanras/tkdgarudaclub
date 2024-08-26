@@ -5,9 +5,9 @@ const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false)
   return (
     <nav className="bg-transparent">
-      <div className="max-w-7xl mx-auto px-3 py-5 rounded-md">
+      <div className="max-w-7xl mx-auto px-6 py-5 rounded-md"> {/* Updated padding */}
         <div className="flex items-center justify-between h-16">
-          <div className="w-full justify-between flex items-center">
+          <div className="w-full flex items-center justify-between">
             <a
               className="text-black flex-shrink-0 font-montserrat font-semibold"
               href="/"
@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-4">
                 <Link
-                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-3 py-2 rounded-md text-sm font-medium font-montserrat"
+                  className="relative after:rounded after:bg-purple after:absolute after:h-0.5 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 text-black opacity-70 hover:opacity-100 px-4 py-2 rounded-md text-sm font-medium font-montserrat"
                   to="/"
                 >
                   Home
@@ -117,10 +117,10 @@ const Navbar = () => {
             >
               Contact
             </a>
-            <div className="items-center mt-20 py-3">
+            <div className="items-center mt-20 px-6"> {/* Added horizontal padding */}
               <a
                 href="tel:#"
-                className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple  hover:bg-transparent md:text-lg md:px-10 "
+                className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
               >
                 Call Us Now
               </a>
