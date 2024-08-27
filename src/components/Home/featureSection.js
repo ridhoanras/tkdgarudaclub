@@ -10,10 +10,11 @@ import Image3 from "../../images/3D-liquid-abstract-3.webp"
 const FeatureSection = () => {
   const [formData, setFormData] = useState({
     name: "",
+    schoolLevel: "",
     email: "",
     phone: "",
     message: "",
-    schoolLevel: "",
+    
   });
 
   const handleChange = (e) => {
