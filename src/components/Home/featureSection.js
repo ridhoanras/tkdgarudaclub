@@ -30,7 +30,7 @@ const FeatureSection = () => {
       `Nama: ${formData.name}\nEmail: ${formData.email}\nTelepon: ${formData.phone}\nPesan: ${formData.message}`
     );
     // Open WhatsApp with pre-filled message
-    window.open(`https://wa.me/08987898831?text=${message}`, "_blank");
+    window.open(`https://wa.me/628987898831?text=${message}`, "_blank");
   };
 
   const RegistrationSection = () => {
