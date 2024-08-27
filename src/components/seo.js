@@ -36,19 +36,19 @@ function Seo({ description, lang, meta, title }) {
       titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
       meta={[
         {
-          name: `description`,
+          name: `Taekwondo Garuda Club adalah tempat di mana semangat, disiplin, dan teknik bertemu untuk membentuk keunggulan. Kami adalah komunitas taekwondo yang berkomitmen untuk mengembangkan kemampuan fisik dan mental para anggotanya melalui pelatihan yang intensif dan filosofi yang mendalam dari seni bela diri ini.`,
           content: metaDescription,
         },
         {
-          property: `og:title`,
+          property: `TAEKWONDO GARUDA CLUB`,
           content: title,
         },
         {
-          property: `og:description`,
+          property: `Selamat datang di Artikel Resmi Terpercaya Taekwondo Garuda Club, Ini adalah sumber informasi dari perjalanan menuju pencapaian prestasi luar biasa. Bergabunglah dengan kami dan alami transformasi yang memadukan teknik, semangat, dan karakter.`,
           content: metaDescription,
         },
         {
-          property: `og:type`,
+          property: `https://tkdgarudaclub.or.id`,
           content: `website`,
         },
         {
