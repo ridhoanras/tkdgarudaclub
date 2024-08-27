@@ -1,5 +1,5 @@
-import React from "react"
-import Fade from "react-reveal/Fade"
+import React, { useState } from "react";
+import Fade from "react-reveal/Fade";
 
 // Assets
 import HeroImage from "../../images/holographic-background-1.webp"
@@ -8,26 +8,98 @@ import Image2 from "../../images/3D-liquid-abstract.webp"
 import Image3 from "../../images/3D-liquid-abstract-3.webp"
 
 const FeatureSection = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Format message
+    const message = encodeURIComponent(
+      `Nama: ${formData.name}\nEmail: ${formData.email}\nTelepon: ${formData.phone}\nPesan: ${formData.message}`
+    );
+    // Open WhatsApp with pre-filled message
+    window.open(`https://wa.me/08987898831?text=${message}`, "_blank");
+  };
+
+  const RegistrationSection = () => {
+    const [formData, setFormData] = useState({
+      name: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
+
+    
+
+    
+  }
+
   return (
     <div className="max-w-7xl mx-auto">
       <Fade bottom cascade>
-        <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
-          <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Setingan</h3>
-            <h4 className="mt-10 text-black  opacity-70 text-xl">10</h4>
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center">
+          {/* Video Section 1 */}
+          <div className="w-full max-w-sm bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5">
+            <div className="video-container">
+              <iframe
+                className="w-full h-56 rounded-xl"
+                src="https://www.youtube.com/embed/WevDqJnsr4I"
+                title="YouTube video 1"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
 
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Trial</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">3</h4>
+          {/* Video Section 2 */}
+          <div className="w-full max-w-sm bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5">
+            <div className="video-container">
+              <iframe
+                className="w-full h-56 rounded-xl"
+                src="https://www.youtube.com/embed/SJe8UDfOs7k"
+                title="YouTube video 2"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
-          <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Asisten</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">4</h4>
+
+          {/* Video Section 3 */}
+          <div className="w-full max-w-sm bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5">
+            <div className="video-container">
+              <iframe
+                className="w-full h-56 rounded-xl"
+                src="https://www.youtube.com/embed/keFn_ipe8iM"
+                title="YouTube video 3"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
-          <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">Pelatih</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">4</h4>
+
+          {/* Video Section 4 */}
+          <div className="w-full max-w-sm bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5">
+            <div className="video-container">
+              <iframe
+                className="w-full h-56 rounded-xl"
+                src="https://www.youtube.com/embed/5dJMz6fByzo"
+                title="YouTube video 4"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </Fade>
@@ -136,19 +208,61 @@ const FeatureSection = () => {
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
           Persyaratan menjadi anggota 
         </h3>
-        <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-        • Mengisi Formulir Pendaftaran dikumpulkan ke kontak admin atau Pelatih Taekwondo.
-        melalui website ini.
-        <br></br>
-        • Membayar Biaya Pendaftaran termasuk
-          baju seragam taekwondo dan buku
-          materi.
-          <br></br>
-        • Membayar Iuran Bulanan
-        <br></br>
-        • Izin Orangtua
-        </p>
-      </div>
+        <form onSubmit={handleSubmit} className="space-y-4 mt-6">
+        <div>
+          <label htmlFor="name" className="block text-black">Nama Lengkap</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+            className="w-full px-4 py-2 border border-gray-300 rounded-md"
+          />
+        </div>
+        <div>
+          <label htmlFor="email" className="block text-black">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+            className="w-full px-4 py-2 border border-gray-300 rounded-md"
+          />
+        </div>
+        <div>
+          <label htmlFor="phone" className="block text-black">Telepon</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
+            required
+            className="w-full px-4 py-2 border border-gray-300 rounded-md"
+          />
+        </div>
+        <div>
+          <label htmlFor="message" className="block text-black">Pesan (Opsional)</label>
+          <textarea
+            id="message"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            className="w-full px-4 py-2 border border-gray-300 rounded-md"
+          />
+        </div>
+        <button
+          type="submit"
+          className="w-full px-4 py-2 bg-gradient-to-r from-pink to-purple text-white rounded-md hover:bg-gradient-to-l hover:from-purple hover:to-pink"
+        >
+          Kirim Formulir
+        </button>
+      </form>
+    </div>
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
