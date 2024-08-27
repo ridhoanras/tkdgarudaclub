@@ -13,6 +13,7 @@ const FeatureSection = () => {
     email: "",
     phone: "",
     message: "",
+    schoolLevel: "",
   });
 
   const handleChange = (e) => {
@@ -27,7 +28,7 @@ const FeatureSection = () => {
     e.preventDefault();
     // Format message
     const message = encodeURIComponent(
-      `Nama: ${formData.name}\nEmail: ${formData.email}\nTelepon: ${formData.phone}\nPesan: ${formData.message}`
+      `Nama: ${formData.name}\nEmail: ${formData.email}\nTelepon: ${formData.phone}\nPesan: ${formData.message}\nJenjang Sekolah: ${formData.schoolLevel}`
     );
     // Open WhatsApp with pre-filled message
     window.open(`https://wa.me/628987898831?text=${message}`, "_blank");
@@ -206,7 +207,7 @@ const FeatureSection = () => {
           MEMBUKA PENDAFTARAN
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Persyaratan menjadi anggota 
+          Hubungi Admin Untuk Menjadi Anggota 
         </h3>
         <form onSubmit={handleSubmit} className="space-y-4 mt-6">
         <div>
@@ -221,6 +222,32 @@ const FeatureSection = () => {
             className="w-full px-4 py-2 border border-gray-300 rounded-md"
           />
         </div>
+        <label htmlFor="schoolLevel" className="block text-black">Jenjang Sekolah</label>
+            <select
+              id="schoolLevel"
+              name="schoolLevel"
+              value={formData.schoolLevel}
+              onChange={handleChange}
+              required
+              className="w-full px-4 py-2 border border-gray-300 rounded-md"
+            >
+              <option value="">Pilih Jenjang Sekolah</option>
+              <option value="BelumSekolah">Belum Sekolah</option>
+              <option value="KelasTK">Kelas TK</option>
+              <option value="Kelas1">Kelas 1</option>
+              <option value="Kelas2">Kelas 2</option>
+              <option value="Kelas3">Kelas 3</option>
+              <option value="Kelas4">Kelas 4</option>
+              <option value="Kelas5">Kelas 5</option>
+              <option value="Kelas6">Kelas 6</option>
+              <option value="Kelas7">Kelas 7</option>
+              <option value="Kelas8">Kelas 8</option>
+              <option value="Kelas9">Kelas 9</option>
+              <option value="Kelas10">Kelas 10</option>
+              <option value="Kelas11">Kelas 11</option>
+              <option value="Kelas12">Kelas 12</option>
+              <option value="LulusSekolah">Lulus Sekolah</option>
+            </select>
         <div>
           <label htmlFor="email" className="block text-black">Email</label>
           <input
