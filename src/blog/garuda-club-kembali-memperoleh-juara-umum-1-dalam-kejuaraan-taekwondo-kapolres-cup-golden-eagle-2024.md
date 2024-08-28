@@ -15,6 +15,8 @@ tags:
   - Indonesia Bigfest Taekwondo Challenge
   - Pembina Taekwondo Garuda Club
   - Orang Tua Atlet Garuda Club
+  - Taekwondo Garuda Club
+  - Taekwondo Kota Tangerang
 description: Kejuaraan Taekwondo Golden Eagle 2024 Di Gor Nambo Kota Tangerang yang diselenggarakan  pada tgl 28 Juli 2024 di Gor Nambo Kota Tangerang di ikuti oleh peserta baik dari dalam maupun luar daerah Kota Tangerang. Garuda Club Kembali meraih Juara Umum di beberapa katagori dalam kejuaraan kali ini.
 ---
 ## Kejuaraan Taekwondo 

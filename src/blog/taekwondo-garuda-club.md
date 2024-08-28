@@ -13,6 +13,8 @@ tags:
   - Sejarah Taekwondo Indonesia
   - Sejarah Taekwondo Masuk Ke Indonesia
   - Sejarah PBTI
+  - Taekwondo Garuda Club
+  - Taekwondo Kota Tangerang
 description: >-
   Selamat datang di Artikel Resmi Terpercaya Taekwondo Garuda Club, Ini adalah sumber informasi dari perjalanan menuju pencapaian prestasi luar biasa. Bergabunglah dengan kami dan alami transformasi yang memadukan teknik, semangat, dan karakter.
 ---

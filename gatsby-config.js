@@ -5,6 +5,8 @@ module.exports = {
     siteUrl: "https://holo-theme.netlify.app/",
     author: `Travis Lord <hi@travislord.xyz>`,
     keywords: `
+    Taekwondo Kota Tangerang,
+    Taekwondo Garuda Club,
     Taekwondo Garuda Club Banjar Wijaya,
     Garuda Taekwondo Sitra Club,
     Word Taekwondo Federation Ruls,

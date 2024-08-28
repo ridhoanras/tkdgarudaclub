@@ -12,6 +12,8 @@ categories:
   - Kejuaraan Taekwondo Internasional 2024
   - Ucapan Selamat Panitia
   - Kabid Olahraga Dispora
+  - Taekwondo Garuda Club
+  - Taekwondo Kota Tangerang
 
 tags:
   - 

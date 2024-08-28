@@ -25,6 +25,8 @@ tags:
   - Taekwondo Fees
   - 5 Principle Of Taekwondo
   - Penguji Taekwondo
+  - Taekwondo Garuda Club
+  - Taekwondo Kota Tangerang
 description: Ujian Kenaikan Tingkat Taekwondo Kota Tangerang Periode 1 Tanggal 19 Mei 2024 Secara resmi di laksanakan di Puspem Kota Tangerang.
 ---
 ## UKT 
