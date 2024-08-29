@@ -12,6 +12,9 @@ import Image6 from "../../images/tangcitymalllogo.png"
 import Image7 from "../../images/lambangkotatangerang.png"
 import Image8 from "../../images/sditgranada.png"
 import Image9 from "../../images/sdbinanusa.png"
+import Image10 from "../../images/tkitgranada.png"
+import Image11 from "../../images/mutiarahati.png"
+import Image12 from "../../images/sunbright.png"
 
 const FeatureSection = () => {
   const [formData, setFormData] = useState({
@@ -319,6 +322,9 @@ const FeatureSection = () => {
     <img alt="Image" src={Image7} className="animated-logo" />
     <img alt="Image" src={Image8} className="animated-logo" />
     <img alt="Image" src={Image9} className="animated-logo" />
+    <img alt="Image" src={Image10} className="animated-logo" />
+    <img alt="Image" src={Image11} className="animated-logo" />
+    <img alt="Image" src={Image12} className="animated-logo" />
   </div>
 
   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
