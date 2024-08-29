@@ -58,3 +58,37 @@ body {
 
 /* 404 page */ 
 .\34 04-p {display: flex; flex-direction: column; align-items: center; padding: 40px 0px;}
+
+.logo-container {
+  display: flex;
+  gap: 20px; /* Adjust spacing between logos */
+  overflow: hidden; /* Hide logos outside the container */
+  width: 100%; /* Ensure the container takes up full width */
+}
+
+.animated-logo {
+  width: 100px; /* Adjust size as needed */
+  position: relative;
+  animation: runLogo 5s infinite linear; /* Adjust duration for a smoother transition */
+}
+
+@keyframes runLogo {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  25% {
+    transform: translateX(20vw) scale(1.1) rotate(-5deg); /* Moves 20% of the viewport width */
+  }
+  50% {
+    transform: translateX(40vw) scale(1) rotate(5deg); /* Moves 40% of the viewport width */
+  }
+  75% {
+    transform: translateX(60vw) scale(1.1) rotate(-5deg); /* Moves 60% of the viewport width */
+  }
+  100% {
+    transform: translateX(80vw) scale(1); /* Moves just past the screen edge */
+  }
+}
+
+
+
