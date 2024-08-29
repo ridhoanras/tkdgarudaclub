@@ -2,15 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-
 p, input, textarea {
   font-family: "Noto Serif", sans-serif;
   font-size: 1rem !important;
   line-height: 1.5rem !important;
 }
 
-
- h1,h2,h3,h4,h5,h6,span {
+h1, h2, h3, h4, h5, h6, span {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -35,43 +33,36 @@ a {
   }
 }
 
-
-/* ~~~~ Custom CSS - I know it's bad T_T ~~~~ */
-
-/* Stop page  side scrolling on mobile */
+/* Stop page side scrolling on mobile */
 html,
 body {
   overflow-x: hidden;
 }
 
-/* Mobile Nav */
-.pb-3 {padding-bottom: 0.75rem; display: flex; flex-direction: column; align-items: center;}
-
-/* Footer background colour */
-.footer.max-w-7xl.mx-auto.p-20.mt-10.rounded-xl {background: linear-gradient(90deg, #796a99, #554970);}
-
-/* mobile dropdown background */
-.md\:hidden {background-color: hsla(243, 60%, 95%, 1); border-radius: 0px 0px 10px 10px;}
-
-/* blog read more arrows */
-.w-3\.5 {padding-left: 5px;}
-
-/* 404 page */ 
-.\34 04-p {display: flex; flex-direction: column; align-items: center; padding: 40px 0px;}
-
+/* Custom styles for logo animation */
 .logo-container {
   display: flex;
   gap: 20px; /* Adjust spacing between logos */
   overflow: hidden; /* Hide logos outside the container */
   width: 100%; /* Ensure the container takes up full width */
+  justify-content: flex-start; /* Align logos to the start of the container */
+  position: relative; /* Position relative for absolute positioning of logos */
 }
 
 .animated-logo {
-  width: 100px; /* Adjust size as needed */
-  position: relative;
-  animation: runLogo 5s infinite linear; /* Adjust duration for a smoother transition */
+  width: 100px; /* Default size */
+  animation: runLogo 10s infinite linear; /* Smooth animation */
+  position: absolute; /* Absolute positioning to keep logos within container */
 }
 
+/* Media Query for Mobile and Tablet Devices */
+@media (max-width: 768px) {
+  .animated-logo {
+    width: 80px; /* Smaller size for smaller screens */
+  }
+}
+
+/* Animation keyframes */
 @keyframes runLogo {
   0% {
     transform: translateX(0) scale(1);
@@ -89,6 +80,3 @@ body {
     transform: translateX(80vw) scale(1); /* Moves just past the screen edge */
   }
 }
-
-
-
