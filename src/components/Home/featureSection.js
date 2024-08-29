@@ -9,6 +9,9 @@ import Image3 from "../../images/3D-liquid-abstract-3.webp"
 import Image4 from "../../images/taekwondodgarudaclub.png"
 import Image5 from "../../images/maskotgarudaclub.png"
 import Image6 from "../../images/tangcitymalllogo.png"
+import Image7 from "../../images/lambangkotatangerang.png"
+import Image8 from "../../images/sditgranada.png"
+import Image9 from "../../images/sdbinanusa.png"
 
 const FeatureSection = () => {
   const [formData, setFormData] = useState({
@@ -294,7 +297,7 @@ const FeatureSection = () => {
           type="submit"
           className="w-full px-4 py-2 bg-gradient-to-r from-pink to-purple text-white rounded-md hover:bg-gradient-to-l hover:from-purple hover:to-pink"
         >
-          Kirim Formulir
+          Kirim Pesan
         </button>
       </form>
     </div>
@@ -313,6 +316,9 @@ const FeatureSection = () => {
     <img alt="Image" src={Image4} className="animated-logo" />
     <img alt="Image" src={Image5} className="animated-logo" />
     <img alt="Image" src={Image6} className="animated-logo" />
+    <img alt="Image" src={Image7} className="animated-logo" />
+    <img alt="Image" src={Image8} className="animated-logo" />
+    <img alt="Image" src={Image9} className="animated-logo" />
   </div>
 
   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
