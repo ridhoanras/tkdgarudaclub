@@ -44,6 +44,14 @@ function Seo({ description, lang, meta, title }) {
           content: title,
         },
         {
+          name: `Dalam dunia bela diri, Taekwondo tidak hanya tentang teknik dan kekuatan fisik, tetapi juga tentang penguasaan diri dan semangat yang menggerakkan setiap langkah. Di Garuda Club, pelatihan Taekwondo dihadirkan dengan pendekatan yang unik, memadukan kekuatan fisik dan mental untuk mencapai puncak kemampuan seorang praktisi.`,
+          content: metaDescription,
+        },
+        {
+          property: `Pelatihan Taekwondo Garuda Club Penguasaan Semangat Dalam Gerakan`,
+          content: title,
+        },
+        {
           property: `Selamat datang di Artikel Resmi Terpercaya Taekwondo Garuda Club, Ini adalah sumber informasi dari perjalanan menuju pencapaian prestasi luar biasa. Bergabunglah dengan kami dan alami transformasi yang memadukan teknik, semangat, dan karakter.`,
           content: metaDescription,
         },
