@@ -45,7 +45,7 @@ const BlogPost = props => {
       : false
     : false
   const previousLinkStatus = pageContext.previous
-    ? pageContext.previous.frontmatter.templateKey === "ujian-kenaikan-tingkat-taekwondo-kota-tangerang-periode-1-tanggal-19-mei-2024"
+    ? pageContext.previous.frontmatter.templateKey === "pelatihan-taekwondo-garuda-club-penguasaan-semangat-dalam-gerakan"
       ? true
       : false
     : false

@@ -20,7 +20,7 @@ tags:
   - Filosofi Taekwondo
   - Pelatihan bela diri
   - Latihan fisik
-Penguasaan teknik
+  - Penguasaan teknik
 description: Dalam dunia bela diri, Taekwondo tidak hanya tentang teknik dan kekuatan fisik, tetapi juga tentang penguasaan diri dan semangat yang menggerakkan setiap langkah. Di Garuda Club, pelatihan Taekwondo dihadirkan dengan pendekatan yang unik, memadukan kekuatan fisik dan mental untuk mencapai puncak kemampuan seorang praktisi.
 ---
 ## Filosofi di Balik Gerakan 
