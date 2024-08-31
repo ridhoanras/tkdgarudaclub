@@ -120,7 +120,8 @@ const FeatureSection = () => {
       </Fade>
 
       <div className="max-w-7xl mx-auto lg:px-8 md:px-3">
-        <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex flex-col lg:flex-row gap-3 lg:flex-justify">
+        <div className="mx-auto max-w-7xl px-4 sm:mt-10 sm:px-6 md:mt-10 lg:mt-10 lg:px-0 xl:mt-10 flex 
+        flex-col lg:flex-row gap-3 lg:flex-justify">
           <div className="lg:w-1/2 my-4 flex justify-center">
             <img
               className="rounded-xl h-56 w-100 object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
@@ -131,11 +132,13 @@ const FeatureSection = () => {
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
             <h2 className="text-black text-4xl font-semibold">MENGAPA</h2>
-            <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+            <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl 
+            lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
               Latihan di sini!
             </h3>
 
-            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
+            <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 
+            md:text-xl lg:mx-auto lg:mr-0">
               Di Garuda Club, akan dilatih oleh pelatih bersertifikat yang memiliki pengalaman luas 
               dalam taekwondo. Mereka tidak hanya ahli dalam teknik tetapi juga dalam menginspirasi dan
               memotivasi peserta.
@@ -145,7 +148,10 @@ const FeatureSection = () => {
               <div className="rounded-md">
                 <a
                   href="tel:#"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex 
+                  items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center 
+                  bg-purple text-white hover:text-black border border-purple hover:bg-transparent 
+                  md:text-lg md:px-10"
                 >
                   Hubungi kami sekarang
                 </a>
@@ -153,7 +159,10 @@ const FeatureSection = () => {
               <div className="mt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="/gallery"
-                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 border border-purple text-base font-medium rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 md:text-lg md:px-10"
+                  className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex 
+                  items-center justify-center px-8 py-3 border border-purple text-base font-medium 
+                  rounded-md text-black hover:text-white bg-transparent hover:bg-purple md:py-3 
+                  md:text-lg md:px-10"
                 >
                   Lihat Galeri
                   <svg
@@ -180,7 +189,8 @@ const FeatureSection = () => {
 
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
-          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
+          <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full 
+          xs:w-full sm:w-2/6">
             <span className="text-black font-semibold font-montserrat text-4xl">
               MANFAAT
             </span>
@@ -191,7 +201,8 @@ const FeatureSection = () => {
               </div>
               <div className="mt-5">
                 <p className="text-black text-2xl">3. Menambah Percaya Diri dan Keberanian</p>
-                <p className="text-black opacity-50 text-sm">4. Meningkatkan Koordinasi dan Keseimbangan</p>
+                <p className="text-black opacity-50 text-sm">4. Meningkatkan Koordinasi dan 
+                  Keseimbangan</p>
               </div>
               <div className="mt-5">
                 <p className="text-black text-2xl">5. Meningkatkan Ketahanan Tubuh</p>
@@ -208,9 +219,10 @@ const FeatureSection = () => {
             Mulai membangun prestasi di Taekwondo Garuda Club yang luar biasa
             </h2>
             <p className="mt-10 text-white opacity-70">
-            Taekwondo Garuda Club, tempat di mana potensi Anak Ayah dan Bunda bertemu dengan peluang tak terbatas untuk
-            membangun prestasi luar biasa! Di sini, kami tidak hanya mengajarkan teknik dan keterampilan 
-            bela diri; kami membentuk karakter dan menginspirasi prestasi yang mengesankan.
+            Taekwondo Garuda Club, tempat di mana potensi Anak Ayah dan Bunda bertemu dengan peluang tak 
+            terbatas untuk membangun prestasi luar biasa! Di sini, kami tidak hanya mengajarkan teknik 
+            dan keterampilan bela diri; kami membentuk karakter dan menginspirasi prestasi yang 
+            mengesankan.
             </p>
           </div>
         </div>
@@ -220,7 +232,8 @@ const FeatureSection = () => {
         <h2 className="text-black text-4xl font-semibold opacity-70">
           MEMBUKA PENDAFTARAN
         </h2>
-        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+        <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl 
+        text-gradient bg-gradient-to-r from-pink to-purple">
           Hubungi Admin Untuk Menjadi Anggota 
         </h3>
         <form onSubmit={handleSubmit} className="space-y-4 mt-6">
@@ -298,7 +311,8 @@ const FeatureSection = () => {
         </div>
         <button
           type="submit"
-          className="w-full px-4 py-2 bg-gradient-to-r from-pink to-purple text-white rounded-md hover:bg-gradient-to-l hover:from-purple hover:to-pink"
+          className="w-full px-4 py-2 bg-gradient-to-r from-pink to-purple text-white rounded-md 
+          hover:bg-gradient-to-l hover:from-purple hover:to-pink"
         >
           Kirim Pesan
         </button>
@@ -309,10 +323,12 @@ const FeatureSection = () => {
   <h2 className="text-black text-4xl font-semibold opacity-70">
     INTEGRASI
   </h2>
-  <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
+  <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl 
+  text-gradient bg-gradient-to-r from-pink to-purple">
     Kami Terintegrasi dengan unit
   </h3>
-  <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg"></p>
+  <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs 
+  md:text-sm lg:text-lg"></p>
   
   {/* <!-- Logo Container --> */}
   <div className="logo-container mt-5 flex space-x-4">
@@ -331,7 +347,9 @@ const FeatureSection = () => {
     <div className="rounded-md">
       <a
         href="/contact/"
-        className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
+        className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center 
+        justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white 
+        hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
       >
         Kirim Pertanyaan
       </a>
