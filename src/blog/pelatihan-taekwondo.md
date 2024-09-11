@@ -1,8 +1,8 @@
 ---
 templateKey: blog-post
-title: Pelatihan Taekwondo Garuda Club Penguasaan Semangat Dalam Gerakan
+title: Pelatihan Taekwondo
 date: 2024-05-22T15:02:06.069Z
-featuredimage: /img/pelatihan-taekwondo-garuda-club-penguasaan-semangat-dalam-gerakan.jpg
+featuredimage: /img/pelatihan-taekwondo.jpg
 categories:
   - blog
 tags:
