@@ -1331,10 +1331,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@fontsource/montserrat@^5.0.18":
-  version "5.0.18"
-  resolved "https://registry.yarnpkg.com/@fontsource/montserrat/-/montserrat-5.0.18.tgz#eecb91b0f0062787a0eee5622988ed21f2899a90"
-  integrity sha512-85JBs2rCdFK/VBdSb401e2lXk5gynVo2zi3Rh2Guem4WNtT2q52+V90o3KzjmajY3TPJvCZA/kI7R05ev7148g==
+"@fontsource/montserrat@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/montserrat/-/montserrat-5.1.0.tgz#3a73a60be1ecd247ff879287f63acda43962cece"
+  integrity sha512-HB4+rWP9Y8g6T9RGRVJk2SvAJtx2eBAXuivvPOqQdD806/9WESUfucfH9LqFj3bGgdhNCfh0Rv0NGuwEmBLRiw==
 
 "@fontsource/noto-serif@^5.0.20":
   version "5.0.20"
