@@ -6,6 +6,8 @@ featuredimage: /img/taekwondo-garuda-club.webp
 categories:
   - Gatsby
 tags:
+  - Taekwondo
+  - Taekwondo Garuda Club
   - Teknik Taekwondo
   - Bela diri
   - Gerakan Taekwondo

@@ -18,12 +18,12 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto mt-10 flex text-white xxs:flex-col sm:flex-row">
         <Fade duration={1200}>
           <div className="bg-dp opacity-70 p-10 rounded-xl w-3/4 m-5 w-auto">
-            <h1 className="text-3xl text-white">CONTACT HOLO</h1>
+            <h1 className="text-3xl text-white">CONTACT ADMIN</h1>
             <h2 className=" text-black text-gradient bg-gradient-to-r from-pink to-purple text-4xl font-bold mt-2 xxs:text-lg sm:text-2xl lg:text-4xl">
-              Gatsby Theme
+              Taekwondo Garuda Club
             </h2>
             <p className="text-lg mt-2 opacity-70 w-3/4 xxs:text-xs xxs:w-full sm:text-sm sm:w-3/4">
-              A stunning and minimal personalized website starter theme.
+              Taekwondo Garuda Club berprestasi, berani, dan juara.
             </p>
 
             <div className="w-full shrink-0 grow-0 basis-auto lg:w-ful mt-10">
@@ -53,7 +53,7 @@ const Contact = () => {
                         Phone
                       </p>
                       <p className="text-neutral-500 mb-2">
-                        <a href="tel:+#">(08) 9000 000</a>
+                        <a href="tel:+#">08812329449 (Sabeum Rya)</a>
                       </p>
                     </div>
                   </div>
@@ -84,7 +84,7 @@ const Contact = () => {
                       </p>
                       <p className="text-neutral-500 mb-2">
                         <a href="mailto:hello@holo.com?subject=Contact Holo for help.">
-                          hello@holo.com
+                          mail@tkdgarudaclub.or.id
                         </a>
                       </p>
                     </div>
@@ -114,7 +114,8 @@ const Contact = () => {
                       <p className="mb-2 font-bold underline decoration-pink">
                         Location
                       </p>
-                      <p className="text-neutral-500 mb-2">Worldwide</p>
+                      <p className="text-neutral-500 mb-2">Food Arcade TangCity Mall</p>
+                      <p className="text-neutral-500 mb-2">Selasar Puspem Kota Tangerang</p>
                     </div>
                   </div>
                 </div>
@@ -142,7 +143,13 @@ const Contact = () => {
                       <p className="mb-2 font-bold underline decoration-pink">
                         Opening Hours
                       </p>
-                      <p className="text-neutral-500 mb-2">24/7</p>
+                      <p className="text-neutral-500 mb-2">1. Minggu Jam 08.00 - 11.00 di Food Arcade TangCity Mall</p>
+                      <p className="text-neutral-500 mb-2">2. Senin Jam 19.00 - 22.00 di Selasar Puspem Kota Tangerang</p>
+                      <p className="text-neutral-500 mb-2">3. Selasa Jam 16.00 - 22.00 di Selasar Puspem Kota Tangerang</p>
+                      <p className="text-neutral-500 mb-2">4. Rabu Libur</p>
+                      <p className="text-neutral-500 mb-2">5. Kamis Jam 19.00 - 22.00 di Selasar Puspem Kota Tangerang</p>
+                      <p className="text-neutral-500 mb-2">6. Jum'at Jam 19.00 - 22.00 di Selasar Puspem Kota Tangerang</p>
+                      <p className="text-neutral-500 mb-2">7. Sabtu Jam 19.00 - 22.00 di Food Arcade TangCity Mall</p>
                     </div>
                   </div>
                 </div>

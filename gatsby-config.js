@@ -5,6 +5,8 @@ module.exports = {
     siteUrl: "https://holo-theme.netlify.app/",
     author: `Travis Lord <hi@travislord.xyz>`,
     keywords: `
+    Taekwondo
+    Taekwondo Garuda Club,
     Teknik Taekwondo,
     Bela diri,
     Gerakan Taekwondo,

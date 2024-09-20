@@ -6,6 +6,8 @@ featuredimage: /img/pelatihan-taekwondo.jpg
 categories:
   - blog
 tags:
+  - Taekwondo
+  - Taekwondo Garuda Club
   - Pelatihan Taekwondo
   - Teknik Taekwondo
   - Bela diri

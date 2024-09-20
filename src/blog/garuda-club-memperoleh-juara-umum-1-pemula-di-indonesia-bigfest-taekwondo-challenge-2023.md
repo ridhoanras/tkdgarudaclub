@@ -4,6 +4,8 @@ title: Garuda club memperoleh Juara Umum 1 Pemula Di Indonesia BIGFEST Taekwondo
 date: 2023-07-19T15:39:18.616Z
 featuredimage: /img/Holographic-Liquid-1.jpg
 categories:
+  - Taekwondo
+  - Taekwondo Garuda Club
   - Teknik Taekwondo
   - Bela diri
   - Gerakan Taekwondo

@@ -6,6 +6,8 @@ featuredimage: /img/Holographic-Liquid-2.jpg
 categories:
   - blog
 tags:
+  - Taekwondo
+  - Taekwondo Garuda Club
   - Teknik Taekwondo
   - Bela diri
   - Gerakan Taekwondo
