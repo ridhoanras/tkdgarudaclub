@@ -161,14 +161,14 @@ const Navbar = () => {
             <div className="items-center mt-20 px-6"> {/* Added horizontal 
             padding */}
               <a
-                href="tel:#"
+                href="https://www.tkdgarudaclub.store/"
                 className="transition-all duration-500ms ease-in-out 
                 hover:ease-in-out w-full flex items-center justify-center px-8
                 py-3 text-base font-medium rounded-md text-center bg-purple 
                 text-white hover:text-black border border-purple 
                 hover:bg-transparent md:text-lg md:px-10"
               >
-                Call Us Now
+                TKDGARUDACLUB Store
               </a>
             </div>
           </div>
