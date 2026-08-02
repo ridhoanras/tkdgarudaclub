@@ -23,21 +23,13 @@
   display: flex;
   align-items: center;
   gap: 0.7rem;
-  color: var(--color-paper);
+  color: #2159a8; /* biru — sama dengan warna sabuk biru di komponen BeltPath */
 }
 
 .brandMark {
-  display: grid;
-  place-items: center;
-  width: 42px;
-  height: 42px;
-  background: var(--color-garuda-red);
-  color: var(--color-paper);
-  font-family: var(--font-display);
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 2px rgba(246, 242, 233, 0.15);
 }
 
 .brandName {
@@ -58,7 +50,7 @@
   font-size: 0.82rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: var(--color-paper-dim);
+  color: #6fa8dc; /* biru — cukup terang agar tetap terbaca di atas header gelap */
   position: relative;
   padding-bottom: 4px;
 }
@@ -106,7 +98,7 @@
 .burger span {
   width: 24px;
   height: 2px;
-  background: var(--color-paper);
+  background: #6fa8dc;
   transform-origin: center;
   transition: transform 0.28s var(--ease-out), opacity 0.2s var(--ease-out);
 }
@@ -170,7 +162,7 @@
     font-family: var(--font-display);
     font-size: 1.15rem;
     text-transform: uppercase;
-    color: var(--color-paper);
+    color: #6fa8dc;
     border-bottom: 1px solid rgba(246, 242, 233, 0.08);
   }
   .navMobileCta {

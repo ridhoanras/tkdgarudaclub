@@ -48,9 +48,7 @@ module.exports = {
         background_color: "#14110F",
         theme_color: "#C8102E",
         display: "standalone",
-        // Placeholder sederhana (huruf "G" di atas ink+merah). Ganti dengan
-        // logo asli 512x512 di path yang sama kapan pun sudah tersedia.
-        icon: "src/images/icon.png",
+        icon: "src/images/icon.png", // dibuat otomatis dari logo asli Garuda Club
       },
     },
     {

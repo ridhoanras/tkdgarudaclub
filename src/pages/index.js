@@ -68,17 +68,17 @@ function IndexPage() {
         <div className={`container ${styles.heroInner}`}>
           <p className={styles.eyebrowLight}>Dojang Resmi · Terafiliasi Kukkiwon</p>
           <h1 className={styles.heroTitle}>
-            Setiap Tendangan
+            Taekwondo
             <br />
-            Membentuk <span className={styles.heroAccent}>Karakter.</span>
+            Garuda<span className={styles.heroAccent}>Club</span>
           </h1>
           <p className={styles.heroLead}>
-            Taekwondo Garuda Club melatih disiplin, keberanian, dan prestasi —
-            dari langkah pertama sabuk putih hingga podium kejuaraan nasional.
+            Taekwondo Garuda Club melatih disiplin, keberanian, dan prestasi
+            dari langkah pertama sabuk putih hingga podium kejuaraan nasional dan internasional.
           </p>
           <div className={styles.heroActions}>
             <Link to="/kontak/#daftar" className="btn btn-primary">
-              Coba Kelas Gratis
+              Coba Kelas Trial
             </Link>
             <Link to="/program-latihan/" className="btn btn-ghost">
               Lihat Program

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
+import { StaticImage } from "gatsby-plugin-image"
 import * as styles from "./header.module.css"
 
 const NAV_LINKS = [
@@ -46,7 +47,15 @@ function Header() {
       <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
         <div className={`container ${styles.bar}`}>
           <Link to="/" className={styles.brand} onClick={() => setOpen(false)}>
-            <span className={styles.brandMark}>garuda</span>
+            <StaticImage
+              src="../images/logo-garuda.png"
+              alt="Logo Taekwondo Garuda Club"
+              className={styles.brandMark}
+              placeholder="blurred"
+              width={48}
+              height={48}
+              loading="eager"
+            />
             <span className={styles.brandName}>
               Taekwondo
               <br />
