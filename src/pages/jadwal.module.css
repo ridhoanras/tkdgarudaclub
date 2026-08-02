@@ -1,0 +1,126 @@
+.header {
+  background: var(--color-steel);
+  color: var(--color-paper);
+  padding-block: var(--space-xl);
+}
+
+.title {
+  color: var(--color-paper);
+  max-width: 20ch;
+}
+
+.lead {
+  max-width: 56ch;
+  color: var(--color-paper-dim);
+  font-size: 1.1rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding-block: var(--space-lg) var(--space-md);
+}
+
+.filterBtn {
+  border: 1px solid var(--color-paper-dim);
+  background: var(--color-white);
+  color: var(--color-ink);
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: background 0.2s var(--ease-out), color 0.2s var(--ease-out), border-color 0.2s var(--ease-out);
+}
+
+.filterBtn:hover {
+  border-color: var(--color-garuda-red);
+}
+
+.filterActive {
+  background: var(--color-garuda-red);
+  border-color: var(--color-garuda-red);
+  color: var(--color-white);
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-paper-dim);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-white);
+}
+
+.table thead th {
+  text-align: left;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-paper);
+  background: var(--color-ink);
+  padding: 0.9rem 1rem;
+}
+
+.table tbody td {
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid var(--color-paper-dim);
+  font-size: 0.94rem;
+}
+
+.table tbody tr:hover {
+  background: var(--color-paper);
+}
+
+.mono {
+  font-family: var(--font-mono);
+  color: var(--color-garuda-red);
+}
+
+.note {
+  margin-top: var(--space-md);
+  padding-bottom: var(--space-xl);
+  color: var(--color-steel-light);
+  font-size: 0.92rem;
+}
+
+.note a {
+  color: var(--color-garuda-red);
+  text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  .table thead {
+    display: none;
+  }
+  .table,
+  .table tbody,
+  .table tr,
+  .table td {
+    display: block;
+    width: 100%;
+  }
+  .table tr {
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid var(--color-paper-dim);
+  }
+  .table td {
+    border-bottom: none;
+    padding: 0.25rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-sm);
+  }
+  .table td::before {
+    content: attr(data-label);
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    color: var(--color-steel-light);
+  }
+}

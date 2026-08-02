@@ -1,0 +1,128 @@
+.header {
+  background: var(--color-steel);
+  color: var(--color-paper);
+  padding-block: var(--space-xl);
+}
+
+.title {
+  color: var(--color-paper);
+  max-width: 18ch;
+}
+
+.lead {
+  max-width: 56ch;
+  color: var(--color-paper-dim);
+  font-size: 1.1rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding-block: var(--space-lg) var(--space-md);
+}
+
+.filterBtn {
+  border: 1px solid var(--color-paper-dim);
+  background: var(--color-white);
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.filterActive {
+  background: var(--color-garuda-red);
+  border-color: var(--color-garuda-red);
+  color: var(--color-white);
+}
+
+.grid {
+  columns: 4;
+  column-gap: var(--space-sm);
+  padding-bottom: var(--space-md);
+}
+
+.tile {
+  position: relative;
+  break-inside: avoid;
+  margin-bottom: var(--space-sm);
+  border-radius: var(--radius-md);
+  height: 190px;
+  background: linear-gradient(155deg, var(--color-steel) 0%, var(--color-ink) 65%, var(--color-garuda-red) 150%);
+  display: flex;
+  align-items: flex-end;
+  padding: var(--space-sm);
+  overflow: hidden;
+  transition: transform 0.3s var(--ease-out);
+}
+
+.tile:hover {
+  transform: scale(1.02);
+}
+
+.tile.tall {
+  height: 280px;
+}
+
+.tile::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(20, 17, 15, 0.75) 0%, transparent 55%);
+}
+
+.tileTag {
+  position: absolute;
+  top: var(--space-sm);
+  left: var(--space-sm);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(20, 17, 15, 0.6);
+  color: var(--color-gold-soft);
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  z-index: 1;
+}
+
+.tile figcaption {
+  position: relative;
+  z-index: 1;
+  color: var(--color-paper);
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.note {
+  color: var(--color-steel-light);
+  font-size: 0.88rem;
+  padding-bottom: var(--space-xl);
+}
+
+.note code {
+  background: var(--color-paper-dim);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-family: var(--font-mono);
+}
+
+@media (max-width: 960px) {
+  .grid {
+    columns: 3;
+  }
+}
+@media (max-width: 680px) {
+  .grid {
+    columns: 2;
+  }
+}
+@media (max-width: 420px) {
+  .grid {
+    columns: 1;
+  }
+}

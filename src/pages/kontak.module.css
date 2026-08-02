@@ -1,0 +1,150 @@
+.header {
+  background: var(--color-steel);
+  color: var(--color-paper);
+  padding-block: var(--space-xl);
+}
+
+.title {
+  color: var(--color-paper);
+  max-width: 18ch;
+}
+
+.lead {
+  max-width: 54ch;
+  color: var(--color-paper-dim);
+  font-size: 1.1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: var(--space-lg);
+  padding-block: var(--space-xl);
+}
+
+.h2 {
+  font-size: 1.4rem;
+  margin-bottom: var(--space-sm);
+}
+
+.infoList li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding-block: var(--space-sm);
+  border-bottom: 1px solid var(--color-paper-dim);
+  font-size: 0.98rem;
+}
+
+.infoLabel {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-garuda-red);
+}
+
+.infoList a:hover {
+  text-decoration: underline;
+}
+
+.mapPlaceholder {
+  margin-top: var(--space-md);
+  height: 220px;
+  border-radius: var(--radius-md);
+  background: repeating-linear-gradient(
+      45deg,
+      var(--color-steel) 0 12px,
+      var(--color-ink) 12px 24px
+    );
+  display: grid;
+  place-items: center;
+  color: var(--color-paper-dim);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.formCol {
+  background: var(--color-white);
+  border: 1px solid var(--color-paper-dim);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-steel-light);
+}
+
+.field input,
+.field select,
+.field textarea {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  text-transform: none;
+  letter-spacing: normal;
+  color: var(--color-ink);
+  padding: 0.75rem 0.9rem;
+  border: 1px solid var(--color-paper-dim);
+  border-radius: var(--radius-sm);
+  background: var(--color-paper);
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: var(--color-garuda-red);
+}
+
+/* Honeypot: tersembunyi secara visual, bukan display:none, agar tetap
+   "terlihat" bot naif namun aman bagi pengguna pembaca layar (aria-hidden). */
+.honeypot {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.error {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--color-garuda-red-dark);
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.success {
+  background: rgba(63, 143, 78, 0.12);
+  border: 1px solid #3f8f4e;
+  color: #276036;
+  padding: var(--space-md);
+  border-radius: var(--radius-sm);
+  font-weight: 600;
+}
+
+.privacyNote {
+  font-size: 0.78rem;
+  color: var(--color-steel-light);
+  margin-top: 0.3rem;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

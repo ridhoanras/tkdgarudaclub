@@ -1,0 +1,41 @@
+{
+  "name": "taekwondo-garuda-club",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website resmi Taekwondo Garuda Club — dibangun dengan Gatsby JS, cepat, aman, dan SEO-ready.",
+  "author": "Taekwondo Garuda Club",
+  "keywords": ["gatsby", "taekwondo", "dojang", "martial-arts", "sport-club"],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "gatsby": "^5.13.7",
+    "gatsby-plugin-manifest": "^5.13.1",
+    "gatsby-plugin-react-helmet": "^6.13.1",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-sitemap": "^6.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "gatsby-plugin-image": "^3.13.1",
+    "dotenv": "^16.4.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-org/taekwondo-garuda-club"
+  }
+}
