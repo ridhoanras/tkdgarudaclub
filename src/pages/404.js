@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> aa79347e5cd033241896b2e9dbe45e96539706e7
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
@@ -23,5 +27,32 @@ function NotFoundPage() {
     </Layout>
   )
 }
+<<<<<<< HEAD
+=======
+=======
+import * as React from "react"
+import Button from "../components/Atoms/button"
+
+import Layout from "../components/layout"
+import Seo from "../components/seo"
+
+const NotFoundPage = () => (
+  <Layout>
+    <Seo title="404: Not found"
+         description="404: Not found"
+    />
+    <div className="404-p">
+    <h1>404: Not Found</h1>
+      <p>You just hit a route that doesn&#39;t exist...</p>
+      <a href="/"><Button
+                title="Return Home"
+                colorClass="text-white bg-gradient-to-r from-pink to-purple"
+                marginClass="mt-5"
+              ></Button></a>
+      </div>
+  </Layout>
+)
+>>>>>>> 5f9371aa013a2f6cb3a2bf501153b2ab3db907d9
+>>>>>>> aa79347e5cd033241896b2e9dbe45e96539706e7
 
 export default NotFoundPage
