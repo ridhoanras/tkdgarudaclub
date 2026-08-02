@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
@@ -168,5 +169,32 @@ function IndexPage() {
     </Layout>
   )
 }
+=======
+import * as React from "react"
+import Layout from "../components/layout"
+
+// Components
+import Header from "../components/Home/header"
+import FeatureSection from "../components/Home/featureSection"
+import Testimonial from "../components/Home/testimonial"
+import FeaturedBlog from "../components/FeaturedBlog"
+import Seo from "../components/seo"
+
+const IndexPage = () => (
+  <div className="h-auto w-screen">
+    <Layout>
+      <Seo
+        title="Home"
+        description="Ini Adalah Website Resmi Taekwondo Garuda Club."
+        lang="id"
+      ></Seo>
+      <Header></Header>
+      <FeatureSection></FeatureSection>
+      <FeaturedBlog></FeaturedBlog>
+      <Testimonial></Testimonial>
+    </Layout>
+  </div>
+)
+>>>>>>> 5f9371aa013a2f6cb3a2bf501153b2ab3db907d9
 
 export default IndexPage
