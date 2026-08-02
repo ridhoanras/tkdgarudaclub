@@ -1,0 +1,87 @@
+.header {
+  background: var(--color-steel);
+  color: var(--color-paper);
+  padding-block: var(--space-xl);
+}
+
+.title {
+  color: var(--color-paper);
+  max-width: 18ch;
+}
+
+.lead {
+  max-width: 60ch;
+  color: var(--color-paper-dim);
+  font-size: 1.1rem;
+}
+
+.storyGrid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: var(--space-lg);
+  padding-block: var(--space-xl);
+}
+
+.h2 {
+  font-size: var(--step-h2);
+}
+
+.visionCard {
+  background: var(--color-paper-dim);
+  border-left: 4px solid var(--color-garuda-red);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.visionCard h3 {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.visionCard p {
+  margin-bottom: 0;
+  color: var(--color-steel-light);
+}
+
+.valuesSection {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  padding-block: var(--space-xl);
+}
+
+.valuesList {
+  margin-top: var(--space-lg);
+}
+
+.valueItem {
+  display: flex;
+  gap: var(--space-md);
+  padding-block: var(--space-md);
+  border-bottom: 1px solid rgba(246, 242, 233, 0.12);
+}
+
+.valueIndex {
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  color: var(--color-garuda-red);
+  min-width: 3ch;
+}
+
+.valueItem h3 {
+  color: var(--color-gold-soft);
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.valueItem p {
+  color: var(--color-paper-dim);
+  margin-bottom: 0;
+  max-width: 60ch;
+}
+
+@media (max-width: 800px) {
+  .storyGrid {
+    grid-template-columns: 1fr;
+  }
+}

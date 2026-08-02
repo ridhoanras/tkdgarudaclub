@@ -1,0 +1,141 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: transparent;
+  transition: background 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out);
+}
+
+.scrolled {
+  background: rgba(20, 17, 15, 0.94);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 8px 30px -18px rgba(0, 0, 0, 0.6);
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1.1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: var(--color-paper);
+}
+
+.brandMark {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  background: var(--color-garuda-red);
+  color: var(--color-paper);
+  font-family: var(--font-display);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  clip-path: polygon(15% 0, 100% 0, 85% 100%, 0 100%);
+}
+
+.brandName {
+  font-family: var(--font-display);
+  font-size: 0.82rem;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.navDesktop ul {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.navDesktop a {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-paper-dim);
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.navDesktop a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: var(--color-gold);
+  transition: width 0.25s var(--ease-out);
+}
+
+.navDesktop a:hover::after,
+.activeLink::after {
+  width: 100%;
+}
+
+.activeLink {
+  color: var(--color-gold-soft);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: transparent;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.burger span {
+  width: 24px;
+  height: 2px;
+  background: var(--color-paper);
+}
+
+.navMobile {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .navDesktop {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  .actions .btn {
+    display: none;
+  }
+  .navMobile {
+    display: block;
+    background: var(--color-ink);
+    border-top: 1px solid rgba(246, 242, 233, 0.1);
+  }
+  .navMobile ul {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-sm) var(--space-sm) var(--space-lg);
+  }
+  .navMobile a {
+    display: block;
+    padding: 0.9rem 0;
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    color: var(--color-paper);
+    border-bottom: 1px solid rgba(246, 242, 233, 0.08);
+  }
+}
