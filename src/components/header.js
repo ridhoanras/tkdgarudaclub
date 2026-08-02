@@ -57,9 +57,9 @@ function Header() {
               loading="eager"
             />
             <span className={styles.brandName}>
-              Taekwondo
+              
               <br />
-              Garuda Club
+              
             </span>
           </Link>
 
