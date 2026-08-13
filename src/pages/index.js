@@ -7,28 +7,36 @@ import BeltPath from "../components/beltPath"
 import * as styles from "./index.module.css"
 
 const STATS = [
-  { angka: "12+", label: "Tahun membina atlet" },
-  { angka: "480", label: "Anggota aktif" },
-  { angka: "35", label: "Medali kompetisi 2024" },
-  { angka: "6", label: "Cabang dojang" },
+  { angka: "46+", label: "Tahun membina atlet" },
+  { angka: "1966", label: "Murid aktif" },
+  { angka: "13", label: "Pelatih Aktif" },
+  { angka: "64", label: "Cabang dojang" },
 ]
 
 const PROGRAMS = [
   {
-    judul: "Little Tigers (5–7 th)",
-    deskripsi: "Motorik dasar, disiplin, dan keberanian lewat permainan bertema Taekwondo.",
+    judul: "Level 0 - Kelas Have Fun",
+    deskripsi: "Tahapan bersenang2, ananda berlatih sambil bermain (1-2x pertemuan). Target : ananda senang dan menyukai berlatih taekwondo Tidak ada seleksi.",
   },
   {
-    judul: "Junior Athlete (8–14 th)",
-    deskripsi: "Teknik dasar hingga menengah, kesiapan sabuk resmi Kukkiwon, dan sparring terpandu.",
+    judul: "Level 1 - Kelas Basic",
+    deskripsi: "Tahapan pengenalan tendangan, pukulan dan tangkisan dasar menggunakan kicking target. Target : Tendangan tinggi ke arah kepala, dan memiliki power impact tendangan ke arah perut agar saat memakai body protector di level 2 tendangan tidak rendah karena terganjal body protector. Target : Memiliki keberanian untuk fighting di kyorugi, tendangan sudah cepat, benar dan tinggi Butuh seleksi dari sabeum dan persetujuan mama (seleksi 1 bulan sekali untuk ke level 2).",
   },
   {
-    judul: "Dewasa & Kebugaran",
-    deskripsi: "Kombinasi kardio tinggi, pertahanan diri praktis, dan pembentukan sabuk lanjutan.",
+    judul: "Level 2 - Kelas Prestasi Reguler",
+    deskripsi: "Pembiasaan memakai alat tanding seperti body protector, pelindung tangan, kaki dan kemaluan. Pembiasaan fighting. Target : untuk kyorugi siap teknik dan mental untuk mengikuti kejuaraan. Latihan minimal 2x (seleksi 2-3 bulan sekali untuk ke level 3)",
   },
   {
-    judul: "Kelas Kompetisi",
-    deskripsi: "Program intensif poomsae & kyorugi untuk atlet yang menuju kejuaraan daerah dan nasional.",
+    judul: "Level 3 - Kelas Intermediate kategori pemula",
+    deskripsi: "Persiapan untuk mengikuti kejuaraan kategori prestasi, penambahan teknik, latih fisik dan latih mental. Target : Kyorugi Mengikuti kejuaraan kategori prestasi. (seleksi via kejauraan2 yang diikuti)",
+  },
+  {
+    judul: "Level 4 - Kelas Intermediate kategori Semi Prestasi",
+    deskripsi: "persiapan mengikuti kejuaraan kategori prestasi di luar kota, persiapan seleksi popda dan kejuaraan kedinasan lainnya. Target : siap mengikuti kejuaraan luar kota dan seleksi kedinasan.",
+  },
+  {
+    judul: "Level 5 - Kelas Expert Kategori Prestasi",
+    deskripsi: "Pembinaan atlet tingkat lanjut untuk menghadapi kejuaraan bergengsi tingkat daerah, provinsi, nasional dan internasional hingga seleksi atlet berprestasi. Fokus pada peningkatan teknik, taktik pertandingan, fisik, mental juara, serta konsistensi performa agar mampu bersaing di tingkat yang lebih tinggi. Target: Siap menjadi atlet berprestasi, mengikuti kejuaraan tingkat provinsi/nasional/internasional, lolos seleksi atlet atau kedinasan, serta mampu meraih prestasi secara konsisten.",
   },
 ]
 
