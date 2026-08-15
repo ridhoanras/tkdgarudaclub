@@ -147,7 +147,7 @@ function TestimoniPage() {
           <h1 className={styles.title}>Cerita dari Keluarga Garuda Club</h1>
           <p className={styles.lead}>
             Kumpulan pengalaman murid, orang tua, dan atlet yang berlatih bersama kami.
-            Punya ceritamu sendiri? Tulis di bawah — langsung tayang di halaman ini.
+            Punya ceritamu sendiri? Tulis di bawah langsung tayang di halaman ini.
           </p>
         </div>
       </section>
