@@ -1,0 +1,14 @@
+[build]
+  command = "yarn build"
+  publish = "public"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Endpoint fungsi dipanggil dari halaman /testimoni/ sebagai "/api/testimoni"
+# supaya path-nya rapi & tidak bocor detail implementasi ke frontend.
+[[redirects]]
+  from = "/api/testimoni"
+  to = "/.netlify/functions/testimoni"
+  status = 200

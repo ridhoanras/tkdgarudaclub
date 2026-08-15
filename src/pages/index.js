@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import RevealOnScroll from "../components/revealOnScroll"
 import BeltPath from "../components/beltPath"
+import TESTIMONI from "../data/testimoni"
 import * as styles from "./index.module.css"
 
 const STATS = [
@@ -37,27 +38,6 @@ const PROGRAMS = [
   {
     judul: "Level 5 - Kelas Expert Kategori Prestasi",
     deskripsi: "Pembinaan atlet tingkat lanjut untuk menghadapi kejuaraan bergengsi tingkat daerah, provinsi, nasional dan internasional hingga seleksi atlet berprestasi. Fokus pada peningkatan teknik, taktik pertandingan, fisik, mental juara, serta konsistensi performa agar mampu bersaing di tingkat yang lebih tinggi. Target: Siap menjadi atlet berprestasi, mengikuti kejuaraan tingkat provinsi/nasional/internasional, lolos seleksi atlet atau kedinasan, serta mampu meraih prestasi secara konsisten.",
-  },
-]
-
-const TESTIMONI = [
-  {
-    kutipan:
-      "Anak saya yang dulu pemalu sekarang berani tampil di depan kelas. Pelatihnya sabar tapi tegas.",
-    nama: "Ibu Ratna",
-    peran: "Orang tua murid Little Tigers",
-  },
-  {
-    kutipan:
-      "Program kompetisinya serius. Dalam setahun saya naik dari sabuk biru ke merah dan lolos Porprov.",
-    nama: "Dimas A.",
-    peran: "Atlet Kelas Kompetisi",
-  },
-  {
-    kutipan:
-      "Jadwalnya fleksibel untuk pekerja kantoran dan tetap bikin keringetan. Worth it.",
-    nama: "Sarah W.",
-    peran: "Kelas Dewasa & Kebugaran",
   },
 ]
 
@@ -149,7 +129,7 @@ function IndexPage() {
           <h2 className={styles.sectionTitle}>Cerita dari Keluarga Garuda Club</h2>
         </RevealOnScroll>
         <div className={styles.testiGrid}>
-          {TESTIMONI.map((t, i) => (
+          {TESTIMONI.slice(0, 3).map((t, i) => (
             <RevealOnScroll as="blockquote" key={t.nama} delay={i * 100} className={styles.testiCard}>
               <p>&ldquo;{t.kutipan}&rdquo;</p>
               <footer>
@@ -159,6 +139,9 @@ function IndexPage() {
             </RevealOnScroll>
           ))}
         </div>
+        <Link to="/testimoni/" className={styles.programLink}>
+          Lihat semua cerita &amp; tulis ceritamu →
+        </Link>
       </section>
 
       {/* CTA */}

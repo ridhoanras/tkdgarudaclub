@@ -27,12 +27,46 @@ npm run serve
 src/
   components/   → Header, Footer, Layout, SEO, RevealOnScroll, BeltPath
   pages/        → satu file = satu URL (index.js → "/", kontak.js → "/kontak/")
+  data/         → testimoni.js: cerita bawaan (seed) untuk beranda & /testimoni/
   styles/       → global.css (design tokens: warna, tipografi, spacing)
   images/       → taruh foto asli di sini (lihat bagian 5)
+netlify/
+  functions/    → testimoni.js: endpoint kirim & baca testimoni (lihat bagian 2a)
 static/
   _headers      → header keamanan HTTP (dibaca otomatis oleh Netlify)
 gatsby-config.js → metadata situs, plugin SEO/sitemap/robots
+netlify.toml     → konfigurasi build & functions untuk Netlify
 ```
+
+### 2a. Fitur testimoni "isi sendiri, langsung tayang" (`/testimoni/`)
+
+Halaman `/testimoni/` (sengaja tidak ada di menu utama, hanya ditautkan dari
+bagian testimoni di beranda) punya formulir yang bisa diisi siapa saja, dan
+ceritanya **langsung tayang tanpa peninjauan admin**. Ini butuh backend
+ringan, karena situs ini sendiri statis:
+
+- **Penyimpanan**: [Netlify Blobs](https://docs.netlify.com/blobs/overview/) —
+  fitur bawaan Netlify, otomatis aktif saat di-deploy ke Netlify, **tanpa**
+  perlu bikin akun/API key layanan lain.
+- **Endpoint**: `netlify/functions/testimoni.js` — `GET` mengambil daftar
+  testimoni, `POST` memvalidasi lalu menyimpan testimoni baru dan langsung
+  mengembalikannya (auto-publish).
+- **Pengaman terhadap spam** (karena tidak ada peninjauan manusia sama
+  sekali): honeypot anti-bot, validasi panjang teks, dan rate limit 1
+  kiriman per IP per 30 detik. Ini bukan jaminan 100% bebas spam — kalau ke
+  depan butuh lebih ketat, tambahkan reCAPTCHA/Turnstile di form dan
+  verifikasi tokennya di function.
+- **Wajib jalankan lewat `netlify dev`, bukan `npm run develop` biasa**, agar
+  endpoint `/api/testimoni` aktif secara lokal:
+  ```bash
+  npm install -g netlify-cli   # sekali saja
+  netlify dev
+  ```
+  Kalau dijalankan dengan `npm run develop` biasa, halaman `/testimoni/` tetap
+  tampil (jatuh ke cerita bawaan di `src/data/testimoni.js`) tapi tombol kirim
+  cerita tidak akan berfungsi.
+- **Mengedit 3 cerita pilihan di beranda**: edit array di `src/data/testimoni.js`
+  seperti biasa lalu commit — ini terpisah dari cerita kiriman pengguna.
 
 ## 3. Sebelum deploy ke production — checklist wajib
 
@@ -116,14 +150,21 @@ runtime. Tambahan yang diterapkan di proyek ini:
 
 ## 7. Deploy
 
-**Netlify (disarankan, karena `_headers` dan Netlify Forms otomatis aktif):**
+**Netlify (wajib untuk fitur ini, bukan sekadar disarankan) —** `_headers`,
+Netlify Forms (form kontak), dan Netlify Functions + Netlify Blobs (fitur
+kirim testimoni auto-publish di bagian 2a) semuanya khusus Netlify:
 1. Push proyek ini ke GitHub/GitLab.
-2. Di Netlify: "Add new site" → hubungkan repo.
-3. Build command: `npm run build` — Publish directory: `public`.
-4. Deploy.
+2. Di Netlify: "Add new site" → hubungkan repo. `netlify.toml` di root sudah
+   berisi konfigurasi build & lokasi functions, jadi biasanya tidak perlu
+   diatur manual.
+3. Build command: `npm run build` — Publish directory: `public` — Functions
+   directory: `netlify/functions` (otomatis terbaca dari `netlify.toml`).
+4. Deploy. Netlify Blobs aktif otomatis, tidak perlu setup database/API key
+   tambahan apa pun.
 
-**Vercel / Cloudflare Pages:** proses serupa, tapi header keamanan di
-`static/_headers` perlu dipindahkan ke `vercel.json` (`headers` field) atau
-`_headers` versi Cloudflare Pages (formatnya sama), dan form kontak perlu
-diarahkan ke layanan lain (mis. Web3Forms, Formspree) karena Netlify Forms
-khusus untuk hosting Netlify.
+**Vercel / Cloudflare Pages:** bisa dipakai untuk situs utamanya, tapi
+`_headers` perlu dipindahkan ke format masing-masing platform, form kontak
+perlu diarahkan ke layanan lain (mis. Web3Forms, Formspree), dan fitur
+testimoni auto-publish di bagian 2a perlu ditulis ulang memakai penyimpanan
+serverless platform tersebut (mis. Vercel KV / Cloudflare KV) karena Netlify
+Blobs khusus Netlify.

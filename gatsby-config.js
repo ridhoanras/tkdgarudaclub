@@ -13,7 +13,7 @@ module.exports = {
     titleTemplate: "%s | Taekwondo Garuda Club",
     description:
       "Taekwondo Garuda Club — dojang resmi untuk anak, remaja, dan dewasa. Latihan disiplin, sabuk resmi Kukkiwon, dan pembinaan atlet kompetisi di Indonesia.",
-    siteUrl: "https://www.taekwondogarudaclub.id",
+    siteUrl: "https://www.tkdgarudaclub.or.id",
     author: "Taekwondo Garuda Club",
     social: {
       instagram: "https://instagram.com/taekwondogarudaclub",
