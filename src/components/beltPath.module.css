@@ -2,8 +2,13 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 0;
+  row-gap: var(--space-md);
   counter-reset: rank;
   margin-top: var(--space-lg);
+}
+
+.step:nth-child(6n)::after {
+  display: none;
 }
 
 .step {
@@ -61,9 +66,11 @@
 .label {
   margin-top: 0.7rem;
   font-family: var(--font-display);
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   text-transform: uppercase;
   letter-spacing: 0.02em;
+  max-width: 14ch;
+  line-height: 1.25;
 }
 
 .meaning {
@@ -76,9 +83,11 @@
 @media (max-width: 860px) {
   .path {
     grid-template-columns: repeat(3, 1fr);
-    row-gap: var(--space-md);
   }
-  .step:nth-child(3)::after {
+  .step:nth-child(6n)::after {
+    display: block;
+  }
+  .step:nth-child(3n)::after {
     display: none;
   }
 }
@@ -86,6 +95,9 @@
 @media (max-width: 520px) {
   .path {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .step:nth-child(3n)::after {
+    display: block;
   }
   .step:nth-child(even)::after {
     display: none;

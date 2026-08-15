@@ -65,7 +65,7 @@ function IndexPage() {
   return (
     <Layout>
       <Seo
-        title="Dojang Taekwondo Resmi di Jakarta"
+        title="Dojang Taekwondo Resmi di Tangerang Raya"
         description="Taekwondo Garuda Club membina anak, remaja, dan dewasa dengan kurikulum resmi Kukkiwon, pelatih bersertifikat, dan jalur kompetisi. Coba kelas pertama gratis."
         pathname="/"
       />

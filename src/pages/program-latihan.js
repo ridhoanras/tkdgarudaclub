@@ -92,7 +92,7 @@ function ProgramLatihanPage() {
         <div className="container">
           <RevealOnScroll>
             <p className="eyebrow">Jalur Tingkatan</p>
-            <h2 className={styles.h2}>Enam Langkah Menuju Sabuk Hitam</h2>
+            <h2 className={styles.h2}>Sebelas Langkah Menuju Sabuk Hitam</h2>
           </RevealOnScroll>
           <BeltPath />
         </div>
